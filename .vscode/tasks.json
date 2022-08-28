@@ -6,7 +6,7 @@
             "label": "Run c++ program",
             "command": [
                 "clear;",
-                "/usr/bin/g++ -fdiagnostics-color=always -g3 -Wall \"${file}\" -o \"${workspaceFolder}/bin/${fileBasenameNoExtension}\" && \"${workspaceFolder}/bin/${fileBasenameNoExtension}\""
+                "/usr/bin/g++ -fdiagnostics-color=always -g3 -Wall \"${file}\" -o \"${workspaceFolder}/bin/${fileBasenameNoExtension}\" && time \"${workspaceFolder}/bin/${fileBasenameNoExtension}\""
             ],
             "options": {
                 "cwd": "${fileDirname}"
