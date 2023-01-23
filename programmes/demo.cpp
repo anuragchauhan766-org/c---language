@@ -3,11 +3,9 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int b;
-    std::cout << "enter the value" << std::endl;
-    cin >> a >> b;
-
-    cout << "the value of a = " << a << " and b = " << b;
+    void *ptr;
+    float g = 10;
+    ptr = &g;
+    float f = *(float *)ptr;
     return 0;
 }

@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    std::pair<string, int> p1("aello", 3);
-    std::pair<string, int> p2("hnurag", 4);
+    std::pair<string, int> p1("hello", 3);
+    std::pair<string, int> p2("anurag", 4);
 
     std::cout << p1.first << "  " << p1.second << endl;
     std::cout << p2.first << "  " << p2.second << endl;
